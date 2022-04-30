@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("#user-login").validate({
+        rules:{
+            eorp:{
+                required:true
+            },
+            pass:{
+                required:true
+            }
+        }
+    })
+    $("#nav-login").validate({
+        rules:{
+            eorp:{
+                required:true
+            },
+            pass:{
+                required:true
+            }
+        }
+    })
+})
